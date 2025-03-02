@@ -1,7 +1,7 @@
 schema: '2.0'
 stages:
   clean_tenders_list:
-    cmd: python src/clean_tenders_list.py data/tenders-raw.xlsx data/tenders-cleaned.xlsx
+    cmd: python src/clean_tenders_list.py data/tenders-raw.xlsx data/tenders-cleaned.csv
     deps:
     - path: data/tenders-raw.xlsx
       hash: md5
@@ -9,10 +9,10 @@ stages:
       size: 9105228
     - path: src/clean_tenders_list.py
       hash: md5
-      md5: 9445ac4f98bb2e7766f7ea436f5b60b7
-      size: 368
+      md5: 6064f1d0665d040848070cf153dbb008
+      size: 366
     outs:
-    - path: data/tenders-cleaned.xlsx
+    - path: data/tenders-cleaned.csv
       hash: md5
-      md5: 7dc942e22d4151449688cae0234f4a6b
-      size: 193430
+      md5: 75a7f8ed1d441a1daad097957ac411ac
+      size: 307646
