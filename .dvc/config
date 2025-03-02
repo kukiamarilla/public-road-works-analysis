@@ -1,0 +1,6 @@
+[core]
+    remote = bucket
+    autostage = true
+['remote "bucket"']
+    url = s3://tcs-public-road-woks-analysis-2025/repository
+    endpointurl = https://nyc3.digitaloceanspaces.com
