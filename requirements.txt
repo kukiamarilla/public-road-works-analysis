@@ -15,3 +15,5 @@ six==1.17.0
 tzdata==2025.1
 unidecode
 weasyprint==65.1
+camelot-py[cv]
+pdfplumber
