@@ -1,6 +1,6 @@
 import sys
 import json
-from pdf_reader import PDFReader
+from modules.pdf_reader import PDFReader
 
 def main():
     if len(sys.argv) != 2:

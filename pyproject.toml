@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "public-road-works-analysis"
+version = "0.1.0"
+description = "Tools for analyzing public road works documents"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+pdf-reader = "modules.pdf_reader.main:main"
+item-extractor = "models.item_extractor.item_extractor:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = true
+

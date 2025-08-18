@@ -185,3 +185,6 @@ test_downloads/
 
 # Pandoc temporary files
 *.tex 
+
+# Google service account
+google_service_account.json
