@@ -1,5 +1,12 @@
 import sys
 import json
+from pathlib import Path
+
+# Add src directory to Python path to allow imports
+src_dir = Path(__file__).parent.parent.parent
+if str(src_dir) not in sys.path:
+    sys.path.insert(0, str(src_dir))
+
 from modules.pdf_reader import PDFReader
 
 def main():
