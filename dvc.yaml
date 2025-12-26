@@ -1,8 +1,0 @@
-stages:
-  clean_tenders_list:
-    cmd: python src/clean_tenders_list.py data/tenders-raw.xlsx data/tenders-cleaned.csv
-    deps:
-      - data/tenders-raw.xlsx
-      - src/clean_tenders_list.py
-    outs:
-      - data/tenders-cleaned.csv
