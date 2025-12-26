@@ -1,0 +1,6 @@
+outs:
+- md5: 17db3118e169c66d2345c6bfe0f6714f.dir
+  size: 13405409
+  nfiles: 49
+  hash: md5
+  path: chunk_embeddings
