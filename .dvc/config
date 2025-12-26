@@ -1,0 +1,6 @@
+[core]
+    remote = do-spaces
+    autostage = true
+['remote "do-spaces"']
+    url = s3://tenderers-predictor/dvc-repo
+    endpointurl = https://tor1.digitaloceanspaces.com

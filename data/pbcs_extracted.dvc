@@ -1,0 +1,6 @@
+outs:
+- md5: 1a33103c8fd1b4e2481e141eb80e75c3.dir
+  size: 81397722
+  nfiles: 243
+  hash: md5
+  path: pbcs_extracted

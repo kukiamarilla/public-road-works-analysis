@@ -1,0 +1,5 @@
+outs:
+- md5: 9a81939cbd6f84c0ca2344dc1b838811
+  size: 4549
+  hash: md5
+  path: checkpoint.json
